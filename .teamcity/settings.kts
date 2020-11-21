@@ -48,7 +48,7 @@ object Build : BuildType({
 
     steps {
         script {
-            scriptContent = "./greet.sh ryuichi"
+            scriptContent = "./greet.sh 'Ryuichi & Co.'"
         }
     }
 
