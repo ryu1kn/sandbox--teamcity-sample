@@ -56,6 +56,7 @@ object Build : BuildType({
 
 object SandboxTeamcitySample : GitVcsRoot({
     name = "sandbox--teamcity-sample"
+    id = DslContext.settingsRootId
     url = "https://github.com/ryu1kn/sandbox--teamcity-sample.git"
     branch = "refs/heads/master"
     branchSpec = "+:refs/heads/*"
