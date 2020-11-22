@@ -49,7 +49,6 @@ object Build : BuildType({
 
     triggers {
         vcs {
-            id = "${SandboxTeamcitySample.id}"
         }
     }
 })
