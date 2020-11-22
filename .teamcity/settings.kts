@@ -54,7 +54,7 @@ object Build : BuildType({
 })
 
 object SandboxTeamcitySample : GitVcsRoot({
-    name = "sandbox--teamcity-sample"
+    name = "sandbox--teamcity-sample-2"
     url = "https://github.com/ryu1kn/sandbox--teamcity-sample.git"
     branch = "refs/heads/master"
     branchSpec = "+:refs/heads/*"
