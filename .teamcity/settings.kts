@@ -41,6 +41,11 @@ object Build : BuildType({
         root(SandboxTeamcitySample)
     }
 
+    params {
+        param("env.GIT_BRANCH", "%teamcity.build.vcs.branch.${SandboxTeamcitySample.id}%")
+        param("env.VCS_ID", "teamcity.build.vcs.branch.${SandboxTeamcitySample.id}")
+    }
+
     steps {
         script {
             scriptContent = "./greet.sh ryuichi"
